@@ -19,7 +19,7 @@ const desktopMenu = document.querySelector('.desktop-menu');
 const iconMenu = document.querySelector('.menu');
 const mobileMenu = document.querySelector('.mobile-menu');
 const carMenuIcon = document.querySelector('.navbar-shopping-cart');
-const carMenu = document.querySelector('.product-detail');
+const carMenu = document.querySelector('#shoppingCartContainer');
 const cardsContainer = document.querySelector('.cards-container');
 
 navBarEmail.addEventListener('click',toggleDesktopMenu);
